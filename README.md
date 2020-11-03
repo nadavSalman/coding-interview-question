@@ -2,4 +2,4 @@
 
 
 ### question 1 https://leetcode.com/problems/add-two-numbers/ (Nadav)
-### question 2 url_to_question_2 (Yonatan)
+### question 2 https://leetcode.com/problems/string-to-integer-atoi/ (Yonatan)
