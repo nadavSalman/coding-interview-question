@@ -13,4 +13,23 @@ class AppTest {
     }
 
 
+    @Test void failTest1(){
+        assertTrue(false);
+    }
+
+    @Test void failTest2(){
+        assertTrue(false);
+    }
+
+    @Test void passTest1(){
+        assertTrue(true);
+    }
+
+    @Test void passTest2(){
+        assertTrue(true);
+    }
+
+
+
+
 }
