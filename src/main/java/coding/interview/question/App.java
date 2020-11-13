@@ -3,14 +3,19 @@
  */
 package coding.interview.question;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Iterator;
+
+import coding.interview.question.question1.Solution;
+
 public class App {
     public String getGreeting() {
         return "Hello world.";
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
 
+    public static void main(String[] args) {
 
     }
 }
