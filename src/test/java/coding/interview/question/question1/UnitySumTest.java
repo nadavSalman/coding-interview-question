@@ -14,7 +14,7 @@ public class UnitySumTest {
     }
 
     @Test void lowerBoundaryTest(){
-        assertEquals(solution.unitySum(10,7,6,0),14);//expect to return 7 * (10/10) +  5 * (10/10) + 0 * (10/10) = 7+ 5 + 0 = 13
+        assertEquals(solution.unitySum(10,7,6,0),13);//expect to return 7 * (10/10) +  5 * (10/10) + 0 * (10/10) = 7+ 5 + 0 = 13
     }
 
     @Test
