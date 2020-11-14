@@ -46,4 +46,10 @@ jobs:
           files: build/test-results/test/TEST-*.xml
           report_individual_runs: true
           deduplicate_classes_by_file_name: false
+          
+    - uses: actions/upload-artifact@v2
+      with:
+        name: gradle-tests-artifact
+        path: build/reports # or path/to/artifact
+
     
